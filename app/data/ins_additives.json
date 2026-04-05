@@ -1,0 +1,259 @@
+{
+  "additives": {
+    "INS 102": {
+      "name": "Tartrazine",
+      "type": "Artificial Colour",
+      "concern": "HIGH",
+      "notes": "Linked to hyperactivity in children. Banned in some countries.",
+      "aliases": ["E102", "FD&C Yellow 5", "Tartrazine"]
+    },
+    "INS 110": {
+      "name": "Sunset Yellow FCF",
+      "type": "Artificial Colour",
+      "concern": "HIGH",
+      "notes": "Linked to hyperactivity in children. Banned in Norway and Finland.",
+      "aliases": ["E110", "FD&C Yellow 6", "Sunset Yellow"]
+    },
+    "INS 124": {
+      "name": "Ponceau 4R",
+      "type": "Artificial Colour",
+      "concern": "HIGH",
+      "notes": "Banned in USA and Norway. Linked to hyperactivity.",
+      "aliases": ["E124", "Cochineal Red A"]
+    },
+    "INS 129": {
+      "name": "Allura Red AC",
+      "type": "Artificial Colour",
+      "concern": "MEDIUM",
+      "notes": "Linked to hyperactivity in children.",
+      "aliases": ["E129", "FD&C Red 40"]
+    },
+    "INS 133": {
+      "name": "Brilliant Blue FCF",
+      "type": "Artificial Colour",
+      "concern": "LOW",
+      "notes": "Artificial colour. Banned in several European countries.",
+      "aliases": ["E133", "FD&C Blue 1"]
+    },
+    "INS 150d": {
+      "name": "Caramel Colour IV",
+      "type": "Artificial Colour",
+      "concern": "MEDIUM",
+      "notes": "Contains 4-methylimidazole, a possible carcinogen.",
+      "aliases": ["E150d", "Caramel Color IV", "Sulphite Ammonia Caramel"]
+    },
+    "INS 211": {
+      "name": "Sodium Benzoate",
+      "type": "Preservative",
+      "concern": "HIGH",
+      "notes": "Forms benzene (carcinogen) when combined with Vitamin C. Linked to hyperactivity.",
+      "aliases": ["E211", "Sodium Benzoate"]
+    },
+    "INS 220": {
+      "name": "Sulphur Dioxide",
+      "type": "Preservative",
+      "concern": "HIGH",
+      "notes": "Can trigger asthma. Must be declared if >10mg/kg.",
+      "aliases": ["E220", "Sulfur Dioxide", "SO2"]
+    },
+    "INS 250": {
+      "name": "Sodium Nitrite",
+      "type": "Preservative",
+      "concern": "HIGH",
+      "notes": "Can form nitrosamines (carcinogens) in the body. Common in processed meats.",
+      "aliases": ["E250"]
+    },
+    "INS 316": {
+      "name": "Sodium Erythorbate",
+      "type": "Antioxidant",
+      "concern": "LOW",
+      "notes": "Generally considered safe.",
+      "aliases": ["E316"]
+    },
+    "INS 407": {
+      "name": "Carrageenan",
+      "type": "Thickener",
+      "concern": "MEDIUM",
+      "notes": "May cause inflammation and digestive issues in some people.",
+      "aliases": ["E407"]
+    },
+    "INS 412": {
+      "name": "Guar Gum",
+      "type": "Thickener",
+      "concern": "LOW",
+      "notes": "Generally safe. May cause bloating in large amounts.",
+      "aliases": ["E412"]
+    },
+    "INS 414": {
+      "name": "Acacia Gum",
+      "type": "Thickener",
+      "concern": "LOW",
+      "notes": "Generally safe. Natural origin.",
+      "aliases": ["E414", "Gum Arabic"]
+    },
+    "INS 420": {
+      "name": "Sorbitol",
+      "type": "Sweetener",
+      "concern": "LOW",
+      "notes": "Laxative effect in large amounts.",
+      "aliases": ["E420"]
+    },
+    "INS 421": {
+      "name": "Mannitol",
+      "type": "Sweetener",
+      "concern": "LOW",
+      "notes": "Laxative effect in large amounts.",
+      "aliases": ["E421"]
+    },
+    "INS 422": {
+      "name": "Glycerol",
+      "type": "Humectant",
+      "concern": "LOW",
+      "notes": "Generally safe.",
+      "aliases": ["E422", "Glycerin"]
+    },
+    "INS 471": {
+      "name": "Mono and Diglycerides of Fatty Acids",
+      "type": "Emulsifier",
+      "concern": "MEDIUM",
+      "notes": "May contain trans fats not listed on label. Common in baked goods.",
+      "aliases": ["E471", "Mono- and Diglycerides"]
+    },
+    "INS 500": {
+      "name": "Sodium Carbonates",
+      "type": "Raising Agent",
+      "concern": "LOW",
+      "notes": "Generally safe.",
+      "aliases": ["E500", "Sodium Bicarbonate", "Baking Soda"]
+    },
+    "INS 508": {
+      "name": "Potassium Chloride",
+      "type": "Salt Substitute",
+      "concern": "LOW",
+      "notes": "Generally safe. Used as sodium substitute.",
+      "aliases": ["E508"]
+    },
+    "INS 621": {
+      "name": "Monosodium Glutamate",
+      "type": "Flavour Enhancer",
+      "concern": "MEDIUM",
+      "notes": "May cause headaches and sensitivity in some people (MSG sensitivity).",
+      "aliases": ["E621", "MSG", "Monosodium Glutamate", "Ajinomoto"]
+    },
+    "INS 627": {
+      "name": "Disodium Guanylate",
+      "type": "Flavour Enhancer",
+      "concern": "MEDIUM",
+      "notes": "Often used with MSG to amplify effect. Not suitable for gout patients.",
+      "aliases": ["E627"]
+    },
+    "INS 631": {
+      "name": "Disodium Inosinate",
+      "type": "Flavour Enhancer",
+      "concern": "MEDIUM",
+      "notes": "Often used with MSG. Not suitable for gout patients. May be derived from meat/fish.",
+      "aliases": ["E631"]
+    },
+    "INS 635": {
+      "name": "Disodium 5-Ribonucleotides",
+      "type": "Flavour Enhancer",
+      "concern": "MEDIUM",
+      "notes": "Combination of INS 627 and INS 631. MSG-family enhancer. Not suitable for gout patients or people avoiding MSG.",
+      "aliases": ["E635", "Disodium Ribonucleotides", "Sodium 5-Ribonucleotides"]
+    },
+    "INS 950": {
+      "name": "Acesulfame Potassium",
+      "type": "Artificial Sweetener",
+      "concern": "MEDIUM",
+      "notes": "Artificial sweetener. Some studies suggest potential metabolic effects.",
+      "aliases": ["E950", "Acesulfame-K", "Ace-K"]
+    },
+    "INS 951": {
+      "name": "Aspartame",
+      "type": "Artificial Sweetener",
+      "concern": "HIGH",
+      "notes": "Classified as 'possibly carcinogenic' by WHO IARC 2023. Not suitable for phenylketonuria patients.",
+      "aliases": ["E951", "NutraSweet", "Equal"]
+    },
+    "INS 952": {
+      "name": "Cyclamate",
+      "type": "Artificial Sweetener",
+      "concern": "HIGH",
+      "notes": "Banned in USA. Linked to bladder cancer in animal studies.",
+      "aliases": ["E952", "Sodium Cyclamate"]
+    },
+    "INS 954": {
+      "name": "Saccharin",
+      "type": "Artificial Sweetener",
+      "concern": "MEDIUM",
+      "notes": "Oldest artificial sweetener. Some studies suggest gut microbiome disruption.",
+      "aliases": ["E954"]
+    },
+    "INS 955": {
+      "name": "Sucralose",
+      "type": "Artificial Sweetener",
+      "concern": "MEDIUM",
+      "notes": "Generally considered safe but some studies suggest gut microbiome effects.",
+      "aliases": ["E955", "Splenda"]
+    },
+    "INS 322I": {
+      "name": "Lecithin",
+      "type": "Emulsifier",
+      "concern": "LOW",
+      "notes": "Usually derived from soy or sunflower. Generally safe. May be GMO soy-derived.",
+      "aliases": ["E322i", "E322", "Soy Lecithin", "Sunflower Lecithin"]
+    },
+    "INS 1422": {
+      "name": "Acetylated Distarch Adipate",
+      "type": "Modified Starch",
+      "concern": "LOW",
+      "notes": "Modified starch. Generally safe.",
+      "aliases": ["E1422"]
+    },
+    "INS 500II": {
+      "name": "Sodium Bicarbonate",
+      "type": "Raising Agent",
+      "concern": "LOW",
+      "notes": "Common baking soda. Generally safe.",
+      "aliases": ["E500ii", "Baking Soda", "Sodium Bicarbonate"]
+},
+    "INS 503II": {
+      "name": "Ammonium Bicarbonate",
+      "type": "Raising Agent",
+      "concern": "LOW",
+      "notes": "Common raising agent in biscuits. Generally safe.",
+      "aliases": ["E503ii", "Ammonium Bicarbonate"]
+},
+    "INS 472E": {
+      "name": "Diacetyl Tartaric Acid Esters of Mono and Diglycerides",
+      "type": "Emulsifier",
+      "concern": "MEDIUM",
+      "notes": "Synthetic emulsifier. May be derived from animal fats.",
+      "aliases": ["E472e", "DATEM"]
+},
+    "INS 223": {
+      "name": "Sodium Metabisulphite",
+      "type": "Preservative",
+      "concern": "HIGH",
+      "notes": "Sulphite preservative. Known allergen — triggers asthma. Must be declared if present above 10mg/kg.",
+      "aliases": ["E223", "Sodium Metabisulfite", "Disodium Metabisulphite"]
+}
+  },
+  "allergens": [
+    "milk", "dairy", "lactose", "whey", "casein",
+    "wheat", "gluten", "maida", "atta",
+    "soy", "soya", "soybean",
+    "peanut", "groundnut",
+    "tree nuts", "almond", "cashew", "walnut", "pistachio",
+    "egg", "eggs",
+    "fish", "shellfish", "crustacean",
+    "sesame", "til",
+    "mustard"
+  ],
+  "natural_claim_violations": [
+    "artificial flavour", "artificial flavor", "artificial colour", "artificial color",
+    "nature identical flavour", "nature identical flavor",
+    "synthetic", "INS 102", "INS 110", "INS 124", "INS 129",
+    "INS 211", "INS 950", "INS 951", "INS 952", "INS 954", "INS 955"
+  ]
+}

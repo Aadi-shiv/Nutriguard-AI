@@ -1,0 +1,256 @@
+{
+  "claim_thresholds": {
+    "high protein": {
+      "nutrient": "protein_g",
+      "operator": ">=",
+      "threshold": 12,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "high protein",
+        "rich in protein",
+        "excellent source of protein"
+      ]
+    },
+    "source of protein": {
+      "nutrient": "protein_g",
+      "operator": ">=",
+      "threshold": 6,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "source of protein",
+        "good source of protein",
+        "contains protein"
+      ]
+    },
+    "low fat": {
+      "nutrient": "fat_g",
+      "operator": "<=",
+      "threshold": 3,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "low fat",
+        "low in fat",
+        "reduced fat"
+      ]
+    },
+    "fat free": {
+      "nutrient": "fat_g",
+      "operator": "<=",
+      "threshold": 0.5,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "fat free",
+        "zero fat",
+        "0g fat"
+      ]
+    },
+    "low sugar": {
+      "nutrient": "sugar_g",
+      "operator": "<=",
+      "threshold": 5,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "low sugar",
+        "low in sugar",
+        "reduced sugar"
+      ]
+    },
+    "sugar free": {
+      "nutrient": "sugar_g",
+      "operator": "<=",
+      "threshold": 0.5,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "sugar free",
+        "zero sugar",
+        "no sugar"
+      ]
+    },
+    "no added sugar": {
+      "nutrient": "added_sugar_g",
+      "operator": "==",
+      "threshold": 0,
+      "unit": "g/100g",
+      "regulation": "FSSAI Food Safety and Standards 2020",
+      "aliases": [
+        "no added sugar",
+        "0g added sugar",
+        "without added sugar",
+        "no added sugars"
+      ]
+    },
+    "zero trans fat": {
+      "nutrient": "trans_fat_g",
+      "operator": "<=",
+      "threshold": 0.2,
+      "unit": "g/100g",
+      "regulation": "FSSAI Food Safety and Standards 2020",
+      "aliases": [
+        "zero trans fat",
+        "0g trans fat",
+        "no trans fat",
+        "trans fat free",
+        "0% trans fat",
+        "0% trans-fat",
+        "trans fat 0%"
+      ]
+    },
+    "low sodium": {
+      "nutrient": "sodium_mg",
+      "operator": "<=",
+      "threshold": 120,
+      "unit": "mg/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "low sodium",
+        "low in sodium",
+        "reduced sodium"
+      ]
+    },
+    "sodium free": {
+      "nutrient": "sodium_mg",
+      "operator": "<=",
+      "threshold": 5,
+      "unit": "mg/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "sodium free",
+        "zero sodium",
+        "no sodium",
+        "salt free"
+      ]
+    },
+    "high fiber": {
+      "nutrient": "fiber_g",
+      "operator": ">=",
+      "threshold": 6,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "high fiber",
+        "high fibre",
+        "rich in fiber",
+        "rich in fibre",
+        "excellent source of fiber"
+      ]
+    },
+    "source of fiber": {
+      "nutrient": "fiber_g",
+      "operator": ">=",
+      "threshold": 3,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "source of fiber",
+        "source of fibre",
+        "good source of fiber",
+        "contains fiber"
+      ]
+    },
+    "low calorie": {
+      "nutrient": "energy_kcal",
+      "operator": "<=",
+      "threshold": 40,
+      "unit": "kcal/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "low calorie",
+        "low energy",
+        "reduced calorie",
+        "light"
+      ]
+    },
+    "low saturated fat": {
+      "nutrient": "saturated_fat_g",
+      "operator": "<=",
+      "threshold": 1.5,
+      "unit": "g/100g",
+      "regulation": "FSSAI Schedule II, Regulation 2.4",
+      "aliases": [
+        "low saturated fat",
+        "low in saturated fat",
+        "reduced saturated fat"
+      ]
+    },
+    "cholesterol free": {
+      "nutrient": "saturated_fat_g",
+      "operator": "<=",
+      "threshold": 1.5,
+      "unit": "g/100g",
+      "regulation": "FSSAI Labelling Regulations 2020 - Cholesterol Free requires saturated fat 1.5g per 100g",
+      "aliases": [
+        "cholesterol free",
+        "cholesterol-free",
+        "zero cholesterol",
+        "0mg cholesterol",
+        "no cholesterol"
+      ]
+    },
+    "guilt free": {
+      "nutrient": "energy_kcal",
+      "operator": "<=",
+      "threshold": 200,
+      "unit": "kcal/100g",
+      "regulation": "FSSAI Misleading Claims Prohibition",
+      "aliases": [
+        "guilt free",
+        "guilt-free",
+        "guilt free snacking",
+        "guilt-free snacking",
+        "healthy snacking"
+      ]
+    }
+  },
+  "high saturated fat warning": {
+    "nutrient": "saturated_fat_g",
+    "operator": "<=",
+    "threshold": 1.5,
+    "unit": "g/100g",
+    "regulation": "FSSAI Schedule II, Regulation 2.4",
+    "aliases": [
+      "low saturated fat",
+      "heart healthy",
+      "good for heart",
+      "heart safe"
+    ]
+  },
+  "cholesterol free": {
+    "nutrient": "saturated_fat_g",
+    "operator": "<=",
+    "threshold": 1.5,
+    "unit": "g/100g",
+    "regulation": "FSSAI Labelling Regulations 2020 - Cholesterol Free requires sat fat \u00e2\u2030\u00a41.5g/100g",
+    "aliases": [
+      "cholesterol free",
+      "zero cholesterol",
+      "0mg cholesterol",
+      "no cholesterol",
+      "cholesterol-free",
+      "cholesterol free snack",
+      "heart healthy",
+      "good for heart",
+      "heart safe"
+    ]
+  },
+  "guilt free": {
+    "nutrient": "energy_kcal",
+    "operator": "<=",
+    "threshold": 200,
+    "unit": "kcal/100g",
+    "regulation": "FSSAI Misleading Claims Prohibition - High calorie products cannot claim guilt-free",
+    "aliases": [
+      "guilt free",
+      "guilt-free",
+      "guilt free snacking",
+      "healthy snack",
+      "healthy choice",
+      "healthy snacking"
+    ]
+  }
+}
