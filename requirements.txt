@@ -7,3 +7,4 @@ pydantic>=2.7.4
 python-dotenv==1.0.1
 requests==2.32.3
 langgraph==0.2.53
+groq==0.12.0
